@@ -1,0 +1,17 @@
+[project]
+name = "review-bot"
+version = "0.0.1"
+description = "Trying to solve problem with code review"
+readme = "README.md"
+authors = [{ "name" = "Vladimir Levin", "email" = "vladimirlevinozinki@gmail.com" }]
+license = { text = "MIT" }
+
+dependencies = [
+    "fastapi[all]",
+    "pydantic",
+    "httpx",
+    "python-dotenv"
+]
+
+[build-system]
+requires = ["setuptools ~= 65.5"]
